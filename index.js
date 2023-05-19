@@ -8,7 +8,7 @@ for(let i = 0; i < gridSize; i++){
 }
 
 const squares = document.querySelectorAll('.square');
-const resetButton = document.querySelector('.btn-reset');
+const clearButton = document.querySelector('.btn-clear');
 
 squares.forEach((square) => {
     square.addEventListener('mousemove', () =>{
@@ -16,7 +16,7 @@ squares.forEach((square) => {
     })
 })
 
-resetButton.addEventListener('click', () =>{
+clearButton.addEventListener('click', () =>{
     squares.forEach((square) => {
         square.style.backgroundColor = 'white';
     })

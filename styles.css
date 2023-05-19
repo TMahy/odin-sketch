@@ -11,8 +11,10 @@ h1{
     background-color: red;
     margin: 0 auto;
     padding: 50px;
+    padding-bottom: 20px;
     max-width: 320px;
     border-radius: 10%;
+    border: 2px black solid;
 }
 
 .container{
@@ -35,3 +37,28 @@ h1{
     border: 0;
     margin: 0;
 }
+
+.btn{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 12px;
+    min-width: 100px;
+
+    appearance: none;
+    cursor: pointer;
+    border: 1px #000 solid;
+
+    border-radius: 5%;
+    background: #ededed;
+    color: #000;
+    transition: background-color 100ms ease-in, color 100ms ease-in;
+
+}
+
+.btn:hover{
+    background: #000;
+    color: #ededed;
+}
+  
