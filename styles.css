@@ -1,10 +1,10 @@
-/* *{
-    border: 1px solid black;
-} */
+*{
+    /* border: 1px solid black; */
+    font-family: 'Courier New', Courier, monospace;
+}
 
 h1{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .container-wrapper{
@@ -12,8 +12,9 @@ h1{
     margin: 0 auto;
     padding: 50px;
     padding-bottom: 20px;
-    max-width: 320px;
-    border-radius: 10%;
+    max-width: min-content;
+    min-width: min-content;
+    border-radius: 30px;
     border: 2px black solid;
 }
 
@@ -23,42 +24,46 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    max-width: 320px;
-    background-color: white;
+    max-width: 20px;
+    min-width: 20px;
+    background-color: lightgray;
     margin: 0 auto;
     /* border: 1px solid grey; */
 }
 
 .square{
     display: inline-block;
-    background-color: rgb(255, 255, 255);
+    background-color: lightgray;
     width: 20px;
     height: 20px;
     border: 0;
     margin: 0;
 }
 
+.buttons{
+    text-align: center;
+}
+
+
 .btn{
-    position: relative;
     display: inline-block;
-    margin: 0 auto;
+    
     margin-top: 20px;
     padding: 12px;
     min-width: 100px;
-
     appearance: none;
     cursor: pointer;
     border: 1px #000 solid;
-
-    border-radius: 5%;
-    background: #ededed;
-    color: #000;
+    border-radius: 10px;
+    background: lightgrey;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
     transition: background-color 100ms ease-in, color 100ms ease-in;
-
 }
 
 .btn:hover{
-    background: #000;
-    color: #ededed;
+    background: black;
+    color: white;
 }
   
