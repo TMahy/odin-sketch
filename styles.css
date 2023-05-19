@@ -5,12 +5,16 @@
 
 h1{
     text-align: center;
+    color: gold;
 }
 
 .container-wrapper{
+    position: relative;
     background-color: red;
     margin: 0 auto;
+    margin-top: 2vh;
     padding: 50px;
+    padding-top: 0px;
     padding-bottom: 20px;
     max-width: min-content;
     min-width: min-content;
